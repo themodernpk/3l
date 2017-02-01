@@ -1,0 +1,111 @@
+.logout_bg{padding-top: 65px; padding-bottom: 65px; background-color: #d9e2e4;}
+
+.logout {	background: #fff;	position: relative;}
+
+.text_logout{padding: 75px 0px 85px;position: relative;z-index: 2;}
+
+.logout h1 {
+	font-size: 105px; color: #3b3b41;
+	font-weight:900; line-height:95px;
+}
+
+
+.logout h1 span{
+	font-size: 32px; font-weight:100;
+	display: block;	line-height:63px;
+	color: rgb( 135, 135, 142 );
+}
+
+
+.logout .btn {
+	font-size: 19px;
+	color: rgb( 255, 255, 255 ); padding: 0 45px;
+	font-weight:500;margin-top: 20px;
+}
+
+
+.logout-ch, .logout-goalpost{ position: absolute;}
+
+.logout-ch { top: -30px; left: 50px; width: 417px}
+
+.logout-goalpost {	top: 10px;	right: 15px;	z-index: 1;	width: 320px;}
+
+
+@media(max-width: 1199px){
+	.logout-ch { width: 332px;	}
+	.text_logout { padding: 65px 0px 50px 45px;	}
+	.logout h1 { font-size: 70px; line-height: 80px;	}
+	.logout h1 span { font-size: 22px; line-height: 35px;	}
+	.logout-goalpost { width: 250px;}
+	.logout-o { width: 55px; margin: 0px 2px -2px;}
+	.logout .btn { font-size: 18px; padding: 0 35px; margin-top: 5px; line-height: 45px;	}
+
+}
+
+
+@media(max-width: 992px){
+
+	.logout-ch { width: 300px; left: 20px; top: -15px;	}
+	.text_logout { padding: 61px 0px 57px 0px;	}
+	.logout h1 { font-size: 55px; line-height: 65px;	}
+	.logout h1 span { font-size: 19px; line-height: 25px;	}	
+	.logout-o { width: 45px;	}
+	.logout .btn { font-size: 18px; padding: 0 25px; line-height: 40px;	}
+	.logout-goalpost { width: 216px;	}
+
+
+}
+
+
+@media(max-width: 767px){
+
+	.logout-ch { width: 250px;}	.text_logout {   padding: 64px 0px 31px 0px; padding-left: 55vw; float: right; width: 100%; }
+	.logout h1 { font-size: 45px; line-height: 50px; }
+	.logout h1 span { font-size: 17px; line-height: 20px; }
+	.logout-o { width: 35px; }
+	.logout-goalpost { width: 197px; }
+	.logout .btn { font-size: 16px; padding: 0 20px; line-height: 35px;		}
+
+
+
+	.logout .row .col-xs-6:last-child {
+		width: 100%;
+	}
+
+
+
+
+
+
+}
+
+
+@media(max-width: 740px){
+	.text_logout {    padding-left: 53vw;}
+}
+
+
+@media(max-width: 715px){
+	.text_logout {    padding-left: 51vw;}
+}
+
+
+@media(max-width: 660px){
+	.text_logout {    padding-left: 47vw;}
+}
+
+
+@media(max-width: 635px){
+	.text_logout {    padding-left: 44vw;}
+	.logout-ch {		width: 230px;	}
+	.logout-goalpost {		width: 185px;	}
+}
+
+@media(max-width: 600px){
+	.text_logout {    text-align: center;		padding-left: 0vw;		width: initial;		float: none;		margin: 0 auto;		display: table;		padding: 5%;	}
+	.logout-ch ,	.logout-goalpost {		display: none;	}
+
+	.logout h1 {    margin-top: 0;}
+
+
+}

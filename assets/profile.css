@@ -1,0 +1,147 @@
+.profile_section {    padding: 80px 100px 105px;    background: #fff;     position: relative;}
+
+.profile_section .alert{    position: absolute;    top: 10px;    left: 5%;    width: 90%;text-align: center;}
+
+.btn.change_psw {position: absolute;
+    font-weight: 500;    font-size: 16px;    color: rgb( 244, 246, 248 );
+    line-height: 35px;    background-color: #393a3c;    right: 65px;
+    top: 50%;padding: 0 20px ;    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);    -o-transform: translateY(-50%);    transform: translateY(-50%);
+}
+
+.btn.change_psw:hover{    background-color: #57585a;}
+
+.profile_dp { margin-right: 60px;  height: 261px;    width: 261px;    float: right;    position: relative;}
+
+.profile_dp img {    width: 100%; box-shadow: 0 0 0 3px #7fb638;    border-radius: 100%;  height: 100%; object-fit: cover;}
+
+.upload_dp input{display: none;}
+
+.profile_dp .upload_dp label{display: block;  right: 8px; cursor: pointer;   position: absolute;    bottom: 8px; margin: 0;
+}
+
+.profile_dp .upload_dp label i {
+    background-color: #8bc63e;    height: 53px;    width: 53px; 
+    border-radius: 100%;    text-align: center;    line-height: 53px;color: #fff;
+    font-size: 18px;    
+}
+
+.profile_dp .upload_dp label:hover i {    background-color: #20a6bc;}
+
+.profile_section .form-group input ,.profile_section .select2-container--default .select2-selection--single, p.value  {
+    border-radius: 3px;    height: 48px; line-height: 48px; padding-left: 20px; padding-right: 20px;
+    font-size: 16px;  color: rgb( 149, 148, 148 );font-weight: 300;    margin: 0;    text-align: left;
+}
+
+.profile_section .select2-container--default .select2-selection--single{    padding-top: 9px;    padding-bottom: 9px;}
+
+
+p.value {padding-left: 0;padding-right: 0}
+
+.profile_section .form-group label {    font-size: 14px;    color: #313131;    font-weight: bold;}
+
+
+.profile_section .form-group input:focus{border-color: #7db535;}
+
+.profile_section .btn.update_profile ,
+.profile_section .btn.edit_profile {
+    max-width: 190px;    width: 100%;    font-size: 16px;
+    font-weight: 500;    margin-top: 20px;    line-height: 48px;
+}
+
+.profile_section .btn.edit_profile{    background-color: #393a3c;}
+.profile_section .btn.edit_profile:hover{background-color: #57585a;}
+
+.profile_section .form-gp-icon {    right: 15px;}
+
+
+
+
+
+/*change-password-popup*/
+/*change-password-popup*/
+#change-password-popup{max-width: 690px;}
+.chang_password_popup form {    padding: 70px 120px 80px;}
+.chang_password_popup .myheading {    padding: 0 20px;    line-height: 65px;}
+div#change-password-popup .mfp-close {    border-color: #4eb2c6;}
+
+@media(max-width: 991px){
+    #change-password-popup{max-width: 500px;}
+    .chang_password_popup form {    padding: 5% 8% 6%;}
+    .chang_password_popup .myheading {    padding: 0 20px;    line-height: 65px;}
+}
+@media(max-width: 767px){
+    .chang_password_popup .myheading { padding: 20px 40px 20px 20px; line-height: 27px; }
+}
+/*change-password-popup END*/
+/*change-password-popup END*/
+
+
+
+
+
+@media(max-width: 1400px){
+    .profile_section {    padding: 8% 6% 6%;}
+    .profile_dp {    margin-right: 35px;    height: 230px;    width: 230px;}
+
+    .profile_section .alert { padding: 10px; font-size: 15px;    }
+
+
+}
+
+
+
+@media(max-width: 1199px){
+    .btn.change_psw { font-size: 15px; line-height: 30px; right: 30px;    padding: 0 10px; }
+    .profile_dp { margin-right: 25px; height: 180px; width: 180px;}
+
+
+    .profile_dp .upload_dp label{ right: 5px; bottom: 5px;}
+    .profile_dp .upload_dp label i { height: 45px; width: 45px; line-height: 45px; font-size: 15px;}
+
+    .profile_section .form-group input, .profile_section .select2-container--default .select2-selection--single, p.value {  
+        height: 40px;    line-height: 40px;    padding-left: 10px;    padding-right: 10px;    font-size: 15px;
+    }
+    .profile_section .btn.update_profile, .profile_section .btn.edit_profile { max-width: 170px; font-size: 15px;margin-top: 15px; line-height: 40px; }
+
+    .profile_section .select2-container--default .select2-selection--single {
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+}
+
+
+
+@media(max-width: 1023px){
+    .profile_dp {    margin-right: 20px;    height: 160px;    width: 160px;}
+    .profile_dp .upload_dp label {     right: 3px;    bottom: 3px;}
+    .profile_dp .upload_dp label i{    height: 40px;    width: 40px;    line-height: 40px;    font-size: 14px;   }
+
+}
+
+
+@media(max-width: 992px){
+
+
+    .profile_dp {    margin-right: 0;    margin: 0 auto;    float: none;    display: block;    margin-bottom: 30px;}
+}
+
+
+@media(max-width: 767px){
+    .profile_section {    padding-top: 55px;}
+    .profile_section .alert { padding: 8px; font-size: 15px; top: 8px;    }
+}
+
+
+
+
+@media (max-width: 600px){
+    .btn.change_psw { right: 10px; }
+
+}
+
+@media (max-width: 350px){
+    .btn.change_psw {        font-size: 14px; padding: 0 8px;    }
+
+}

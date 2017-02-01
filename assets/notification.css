@@ -1,0 +1,155 @@
+
+
+
+
+.notification_section {
+
+	padding: 30px 60px;    background: #fff;
+	border-bottom-left-radius: 4px;    border-bottom-right-radius: 4px;
+}
+
+.notification_ul>li {	display: table;    padding-bottom: 25px;    margin-bottom: 30px;    border-bottom: 1px solid #e4e6ea;}
+.notification_ul>li:last-child {   margin-bottom: 0px;    border-bottom: none;}
+
+.notification_ul>li>div{display: table-cell; vertical-align: middle;    padding: 0 10px;}
+
+.n_time{width: 13%;}
+.n_about{width: 72%;}
+.n_chat{width: 15%;     text-align: center;}
+
+
+.n_chat ul li{
+	display: block;
+}
+
+
+.notification_ul .n_time, .notification_ul .n_chat , .notification_ul .action_detail{vertical-align: top;    padding-top: 25px;}
+
+.n_time h4 ,.n_about h4{
+	font-size: 16px;	margin-top: 0;	color: rgb(56, 56, 58);
+	font-weight: 500;	line-height: 26px;
+}
+
+.n_time h4 i {	color: #8ac160;padding-right: 5px;}
+
+.n_about .media-left { position: relative;padding-right: 18px;}
+
+.n_about .un_confirm .media-left i, .n_about .confirm .media-left i{background: #25b7d3;
+	width: 19px;	height: 19px;	border-radius: 100%;	line-height: 19px;
+	text-align: center;	position: absolute;	    top: 47px;
+	left: 53px;	box-shadow: 0 0 0 2px white;font-size: 13px;
+}
+
+.n_about .confirm .media-left i{background-color: #87bf5c;}
+
+
+.n_about .media-left img{ width: 70px;height: 70px;}
+
+.n_about h4 {		font-weight: bold;	color: #38383a;  margin-top: 10px;     margin-bottom: 5px;  }
+.n_about h4 span{color: rgb( 112, 171, 104 );	}
+
+.n_about h4.media-heading {	   padding-bottom: 3px;}
+
+.n_about p{
+	font-size: 16px;	color: rgb( 92, 92, 97 );
+	line-height: 26px;font-weight: 300;text-align: left;
+}
+
+.n_chat .btn{
+	line-height: 36px;  font-size: 16px;    padding: 0 25px 0 52px;
+	color: rgb( 244, 246, 248 );  font-weight: 500; background-color: #7dad58;    background-image: url(img/chat_ico.png);
+	background-repeat: no-repeat;    background-position: 25px;
+}
+
+.n_chat .btn:hover{background-color: #20a6bc;}
+
+
+.confirm_li li {    font-weight: 300;	font-size: 16px;	color: #5c5c61;	line-height: 26px;    padding-right: 27px;}
+.confirm_li li:last-child {	   padding-right: 0px;}
+.confirm_li li b{		color: #3a3a3e;	}
+
+
+
+@media(max-width: 1720px){
+	.n_time {    width: 15%;}
+	.n_about{width: 67%;}
+	.n_chat{width: 18%;}
+
+}
+
+
+@media(max-width: 1500px){
+	.n_time {    width: 17%;}
+	.n_about{width: 65%;}
+	.n_chat{width: 18%;}
+}
+
+@media(max-width: 1400px){
+	.notification_section{    padding: 4% 6%;}
+	.n_time{width: 18%;}
+	.n_about{width: 62%;}
+	.n_chat{width: 20%;}
+	.n_time h4, .n_about h4 {    font-size: 15px;  line-height: 22px;}
+	.n_about p {    font-size: 15px;    line-height: 22px;}
+	.n_chat .btn {    line-height: 35px;    font-size: 15px;    padding: 0 20px 0 42px;    background-position: 20px;}
+	.confirm_li li {    font-size: 15px;    line-height: 22px;    padding-right: 15px;}
+}
+
+
+@media(max-width: 1199px){
+	.n_time{width: 22%;}
+	.n_about{width: 53%;}
+	.n_chat{width: 20%;}
+	.notification_ul>li>div {    padding: 0px 5px;}
+
+}
+
+
+
+
+@media(max-width: 991px){
+	.notification_ul li{position: relative;}
+	.n_time {    width: 35%;    position: absolute;    right: 0;     text-align: center;}
+	.notification_ul .n_time {    padding-top: 0;}
+	.n_about{width: 65%;}
+	.n_chat{width: 35%;     text-align: center;}
+	.notification_ul>li>div.n_chat {		vertical-align: top ;		padding-top: 40px ;	}
+	.notification_ul>li {    padding-bottom: 5%;    margin-bottom: 5%;}
+}
+
+
+
+
+
+@media(max-width: 580px){
+	.notification_ul>li{display: block;}
+	.n_time, .n_about, .n_chat { width: 100%; display: block !important; padding-bottom: 10px !important;}
+	.n_time {    position: static;}
+	.notification_ul>li>div.n_chat {    padding-top: 10px;}
+	.n_time h4  {    margin-bottom: 0;}
+
+	.n_chat ul li {
+		display: inline-block;
+	}
+	
+}
+
+@media(max-width: 380px){
+	.n_about .media-left,  .n_about .media-body { display: initial; width: 100%;	}
+	.n_about .media-left { margin: 0 auto; display: table; text-align: center;   
+		width: initial;  margin-bottom: 0;    padding-right: 0; width: initial;
+	}
+	.n_time h4, .n_about h4, ul.confirm_li ,.n_about p, .n_about a{ text-align: center;	}
+	ul.confirm_li li{display: block;}
+	.n_about a{ display: table; margin: 0 auto;}
+
+	ul.attachment_ul{text-align: center;}
+
+	.n_chat ul li {
+		display: block;
+	}
+
+}
+img.media-object.ys_user {
+    border-radius: 50%;
+}

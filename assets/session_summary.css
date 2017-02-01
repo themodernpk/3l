@@ -1,0 +1,26 @@
+.table tbody tr.ques_tr td {
+	vertical-align: top;
+}
+
+.table tbody tr td:last-child {
+	padding-left: 35px;
+}
+
+
+.package_details .table tbody tr td:first-child {    width: 30%;}
+.package_details .table tbody tr td:last-child {    width: 70%;}
+
+
+
+@media(max-width: 1199px){
+	.package_details .table tbody tr td:first-child {    width: 35%;}
+	.package_details .table tbody tr td:last-child {    width: 65%;}
+
+}
+
+
+@media(max-width: 991px){
+	.package_details .table tbody tr td:first-child {    width: 40%;}
+	.package_details .table tbody tr td:last-child {    width: 60%;}
+
+}

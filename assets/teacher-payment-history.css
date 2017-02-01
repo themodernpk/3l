@@ -1,0 +1,489 @@
+li.wallet_col h4 {    padding-bottom:0px;}
+
+li.wallet_col  p {
+	font-size: 16px;	color: rgb( 120, 120, 124 );
+	display: block;	line-height: 23px;	font-weight: 300;
+}
+
+li.wallet_col  p span{font-weight: 500;}
+
+li.wallet_col a.btn {
+	font-size: 16px;	color: rgb( 244, 246, 248 ) !important;
+	line-height: 45px;	border: none !important; font-weight: 500;
+	background-color: #8bc63e;	padding: 0 22px;    margin-bottom: 14px;
+	display: inline-block;	border-radius: 25px; cursor: pointer !important;
+}
+
+li.wallet_col a.btn:hover, li.wallet_col a.btn:focus{
+	background-color: #20a6bc;
+}
+
+
+.wallet_packages h1 i{	
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	background-image: -moz-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+	background-image: -webkit-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+	background-image: -ms-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+}
+
+a.wallet_ring:hover .wallet_packages h1 i, li.active a.wallet_ring .wallet_packages h1 i {	
+	background: transparent;
+	-webkit-text-fill-color: white;
+}
+
+.wallet_packages h1 {	font-size: 94px;}
+
+
+
+/*//TABLE SECTION*/
+
+.table .row span.cell {
+	padding-left: 34px;
+	padding-right: 34px; vertical-align: middle;
+}
+.table .header-row span.cell {
+	padding-left: 31px;
+	padding-right: 31px;
+}
+
+.table span.cell.debit_tr{	color: #db5d5d;}
+.table span.cell.credit_tr{	color: #67ab33;}
+
+
+span.dash {
+	width: 7px;	height: 2px;
+	background-color: #db5d5d;
+	display: inline-block;margin-left: 16px;
+}
+
+.credit_tr span.dash {	background-color: #67ab33;}
+.debit_tr span.dash {	background-color: #db5d5d;}
+
+
+.detail_tr ul{padding-top: 4px;padding-left: 8px;}
+.detail_tr ul li {	display: block;	line-height: 22px;}
+.detail_tr ul li b{	font-weight: 500}
+
+.actions_tr .btn {
+	font-size: 16px;	line-height: 36px;
+	background-color: #87bf5c;
+	max-width: 130px;font-weight: 500; display: block;
+}
+
+.actions_tr .btn.edit{background-color: #87bf5c;}
+.actions_tr .btn.remove{background-color: #cc6a6a;}
+
+.actions_tr .btn + .btn{margin-top: 8px}
+
+.actions_tr .btn.edit:hover{background-color: #6cb038;}
+.actions_tr .btn.remove:hover{background-color: #ba2d2d;}
+
+.mywallet_slide_accdetails  .account_tr{width: 23%}
+.mywallet_slide_accdetails  .detail_tr{width: 57%}
+.mywallet_slide_accdetails  .actions_tr{width: 20%}
+
+
+/*.account_tr .media-body {width: auto;}*/
+.account_tr .media-body h4 {
+	font-size: 16px;
+	color: rgb( 120, 120, 124 );
+	line-height: 23px;
+	margin: 0;font-weight: 500;
+}
+
+.account_tr .media-left i {
+	font-size: 43px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	background-image: -moz-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+	background-image: -webkit-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+	background-image: -ms-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+}
+
+/*//TABLE SECTION*/
+
+
+
+
+
+
+
+
+
+@media(max-width: 1400px){
+	.table .header-row span.cell {		padding-left: 25px;		padding-right: 25px;}
+
+	.table .row span.cell {			padding-left: 26px;			padding-right: 26px;}
+	.table .header-row .cell:nth-child(2) {		padding-left: 26px;	}
+
+
+
+}
+
+
+
+@media(max-width: 1199px){
+
+	.wallet_packages h1 {
+		font-size: 80px;
+	}
+
+
+
+	.table.table { display: block; margin:0; }
+	.table.mytable {    background: transparent;}
+
+	.table span.cell.wallet_credit, .table span.cell.wallet_refund { padding-left: 20px;    }
+	.wallet_credit span.ico, .wallet_refund span.ico{ 
+		left: initial;    position: relative;
+		top: 10px;    margin-right: 10px;
+	}
+
+
+	.table .caption {
+		position: fixed; top: 0;
+		text-align: center; height: 44px;
+		line-height: 44px; z-index: 5;
+		border-bottom: 2px solid #999;
+	}
+
+	.table .row { position: relative; display: block;
+		border-bottom: none;     margin-bottom: 10px;
+	}
+
+	.table .header-row { display: none;    }
+
+
+
+	.table span.cell {position: relative; height: 50px;
+		line-height: 50px; text-align: left; padding:0px 12px;
+		background-color: rgb(150, 195, 63);
+		background-image: -moz-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+		background-image: -webkit-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+		background-image: -ms-linear-gradient(0deg, rgb(150, 195, 63) 0%, rgb(72, 176, 210) 100%);
+		width: 100%; display: block; float: left;
+		border: none; color: #fff; font-weight: 500;
+	}
+
+	span.cell.primary {
+		border-radius: 5px;
+	}
+
+	span.cell.primary p {
+		color: #fff;
+		font-size: 16px;
+		font-weight: 500;
+		text-transform: capitalize;
+		text-align: center;
+	}
+
+	.mywallet_slide_packages .table span.cell { height: initial; }
+	.mywallet_slide_packages .table span.cell:before {  display: none !important;   }
+	.mywallet_slide_packages .table span.cell.package_tr {    text-align: center;}
+
+	.mywallet_slide_packages .table span.cell:last-child {        text-align: center;    }
+	.mywallet_slide_packages .table .btn {    display: inline-block;}
+
+
+
+	.table .primary:after {
+		content: ""; display: block; position: absolute; right:12px;
+		top:18px; z-index: 2;  width: 0;  height: 0; 
+		border-bottom: 10px solid #fff; border-left: 10px solid rgba(0, 0, 0, 0);
+		border-right:10px solid rgba(0, 0, 0, 0);
+	}
+
+	.table .cell:nth-of-type(n+2) { display: none; }
+
+
+	.table input[type="radio"],
+	.table input[type="checkbox"] {
+		display: block; position: absolute;    visibility: visible;cursor: pointer;
+		z-index:5;        width: 100%;        height:50px;        opacity: 0;
+	}
+
+	.table input[type="radio"]:checked ~ .cell,
+	.table input[type="checkbox"]:checked ~ .cell {
+		display: block;    border-bottom: 1px solid #eee;
+		height: initial;    line-height: 34px;
+		min-height: 40px;    padding-top: 10px;    padding-bottom: 10px;
+	}
+
+	.table input[type="radio"]:checked ~ .cell.primary,
+	.table input[type="checkbox"]:checked ~ .cell.primary{
+		line-height: 50px;padding: 0 20px;
+	}
+
+	.table input[type="radio"]:checked ~ .cell:nth-of-type(n+2),
+	.table input[type="checkbox"]:checked ~ .cell:nth-of-type(n+2) {
+		background: #ffffff;font-weight: 300;    color: rgb( 151, 155, 163 );
+	}
+
+	.table input[type="radio"]:checked ~ .cell:nth-of-type(n+2):before,
+	.table input[type="checkbox"]:checked ~ .cell:nth-of-type(n+2):before {
+		content: attr(data-label); display: inline-block;
+		width: 80px; background: #999; border-radius:4px;
+		height: 25px; margin-right: 10px; font-size: 12px;
+		line-height: 25px; text-align: center; color: white;  
+		vertical-align: top;
+		margin-top: 4px;
+		/* top: 0;    bottom: 0;    margin: auto;*/
+	}
+
+
+	.table input[type="radio"]:checked ~ .primary, .table input[type="checkbox"]:checked ~ .primary {
+		background: none repeat scroll 0 #7c7c81;
+		border: none; color: #ffffff;
+		-webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0;
+		border-radius: 5px 5px 0 0; margin-bottom: 0px;
+		
+
+	}
+
+
+	.table input[type="radio"]:checked ~ .primary:after,
+	.table input[type="checkbox"]:checked ~ .primary:after {
+		position: absolute; right:12px; top:22px;z-index: 2;
+		border-right: 10px solid transparent; border-left: 10px solid transparent; border-top:10px solid #fff; border-bottom:none;
+	}
+
+	.account_tr .media-body h4 { font-size: inherit; color: inherit; line-height: inherit;	}
+	.account_tr .media-left i {    margin-top: -5px; font-size: 28px;	 vertical-align: middle; background: transparent; -webkit-text-fill-color: #fff;}
+	.account_tr .media-middle img {	height: 34px; vertical-align: middle;}
+	.account_tr .media-left { min-width: 42px; padding: 0; text-align: center; margin-right: 14px;}
+	.table .row span.cell { padding-left: 20px; padding-right: 20px;	}
+
+	.table .row span.cell.actions_tr{text-align: center;}
+	.actions_tr .btn {    display: inline-block;}
+	.actions_tr:before{content: initial !important;}
+	.actions_tr .btn-block + .btn-block { margin-top: 0; }
+	span.dash {		background-color: #999999 !important;		margin-left: 0;	}
+	.actions_tr .btn + .btn{margin-top: 0px}
+	.detail_tr ul {		padding-left: 0;		margin-left: 0px;		display: inline-block;    width: 80%;	}
+
+}
+
+
+
+@media(max-width: 991px){
+	
+
+}
+
+
+
+@media(max-width:850px){
+	li.wallet_col p {		width: 70%;		margin-left: auto;		margin-right: auto;	}
+}
+
+
+@media(max-width: 767px){
+	.wallet_packages h1 {		font-size: 50px;	}
+	li.wallet_col a.btn {  font-size: 15px;    line-height: 40px;    padding: 0 15px;    margin-bottom: 10px;}
+
+	.detail_tr ul {	  width: 70%;	}
+
+}
+
+
+
+@media(max-width: 560px){
+	li.wallet_col p {    width: 80%; font-size: 14px;     line-height: 20px; }
+	.detail_tr ul {	   width: 100%;	}
+
+	li.wallet_col h4{     font-size: 15px;;}
+}
+
+
+
+@media(max-width: 450px){
+	.wallet_packages h1 { font-size: 40px;	}
+
+	li.wallet_col a.btn { font-size: 14px; line-height: 36px; padding: 0 15px; }
+
+	li.wallet_col p {	width: 90%;	font-size: 13px;		line-height: 18px;	}
+
+
+}
+
+
+
+@media(max-width: 430px){
+	/*li.wallet_col h4 { font-size: 14px; line-height: 22px;  margin-left: auto; margin-right: auto; }
+	li.wallet_col p { width: 70%;}*/
+
+	li.wallet_col a.btn { 
+		font-size: 13px; line-height: 32px;
+		padding: 0 12px; /*display: block;*/ /*margin: 10px 4px 8px 8px;*/
+	}
+	/*	li.wallet_col.wallet_col2 a.btn{		margin-left: 4px;margin-right: 8px;	}*/
+	.nav-tabs > li > a.wallet_ring { margin-bottom: 12px;}
+
+
+}
+
+
+@media(max-width: 360px){
+	li.wallet_col h4 {		font-size: 14px;	}
+	li.wallet_col p {	width: 95%;}
+}
+
+
+@media(max-width: 340px){
+	li.wallet_col p {	    font-size: 12px;     line-height: 16px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*POPUP DETAIL OF YOUR bank Account*/
+@media(min-width: 767px){
+	.register_inner.bank_acc_popup .left_side {		width:46%;	} 
+	.register_inner.bank_acc_popup .right_side{		width:54%;padding-top: 35px;   padding-bottom: 32px;}
+}
+
+
+
+.register_inner.bank_acc_popup .left_side {
+	background-color: #303033;	color: #ffffff;	
+	background: url(img/bg_login.jpg) ;	background-repeat: repeat;
+}
+
+.bank_acc_popup .right_side h4 span{	font-size: 18px;	line-height: 29px;}
+
+.bank_acc_popup .form-group.form_grp_width {    padding: 0; margin-bottom: 32px; text-align: center;} 
+
+.register_inner.bank_acc_popup .form-group label{
+	color: rgb( 73, 73, 77 );    margin: 0;    vertical-align: baseline;
+}
+
+.register_inner.bank_acc_popup .form-group label.radio-inline{	color: #6a6a71;}
+
+.bank_acc_popup label.radio-inline:after {    border: 2px solid #9b9b9c;}
+
+.bank_acc_popup input[type=radio]:checked ~ label.radio-inline:after {	background-color: #6faa6a;	border: 1px solid #6faa6a;}
+
+.register_inner.bank_acc_popup .form-group label.radio-inline {	padding-left: 28px;	margin-left: 20px;}
+
+.register_inner.bank_acc_popup form{max-width:392px; margin: 0 auto;}
+.forgot_pass_form.bank_acc_popup .right_side h4 {    margin-bottom: 30px;}
+
+.bank_acc_popup .btn{ background-color:#6faa6a;font-weight: 400;}
+.bank_acc_popup .btn:hover {    color: #fff;    background-color: #20a6bc;}
+
+p.payment_in{	margin-top: 18px;	font-size: 17px;font-weight: 300;	color: rgb( 106, 106, 113 );}
+
+p.payment_in span{ font-weight: 500;}
+
+.bank_acc_popup .logo_login svg {	width: 90px;	height: 90px;}
+
+
+.via_bank ,.via_paypal{
+	-moz-transition: 1s;	-ms-transition: 1s;	-o-transition: 1s;	-webkit-transition: 1s;
+	transition: 1s;	opacity: 0; 	height: 0;	overflow: hidden;
+}
+.current{	opacity: 1;	height: auto;	max-height: 800px;}
+
+
+
+@media (max-width: 1199px){
+	.forgot_pass_form.bank_acc_popup .my_character { width: 154px;}
+	.register_inner.bank_acc_popup .form-group label.radio-inline { padding-left: 24px; margin-left: 12px;}
+	.bank_acc_popup .form-group.form_grp_width {    margin-bottom: 25px;}
+
+}
+
+@media (max-width: 991px){
+
+	.forgot_pass_form.bank_acc_popup .my_character { width: 130px;}
+	.register_inner.bank_acc_popup .right_side { padding-top: 30px;
+		padding-bottom: 26px; padding-left: 28px; padding-right: 28px;
+	}
+	.bank_acc_popup .right_side h4 span {    font-size: 17px;    line-height: 26px;}
+	.bank_acc_popup .form-group.form_grp_width {    margin-bottom: 25px;}
+	.forgot_pass_form.bank_acc_popup .right_side h4 {    margin-bottom: 22px;}
+	p.payment_in {    margin-top: 14px;    font-size: 16px;}
+	.register_inner.bank_acc_popup .form-group label.radio-inline {    padding-left: 24px;    margin-left: 14px;}
+}
+
+@media(max-width: 767px){
+	.register_inner.bank_acc_popup .form-group label.radio-inline {		padding-left: 22px;		margin-left: 10px;	}
+	.register_inner.bank_acc_popup .right_side {    padding-top: 10px;    padding-bottom: 25px;}
+
+}
+@media(max-width: 400px){
+	.register_inner.bank_acc_popup .form-group label {    width: 100%;    text-align: left;    padding-bottom: 15px;}
+	.register_inner.bank_acc_popup .form-group label.radio-inline {padding: 0 18px 0 22px;
+		display: inline-block;    width: auto;    float: left;margin: 0;    
+	}
+	.register_inner.bank_acc_popup .form-group span:last-child label.radio-inline{padding-right: 0;}
+	.via_bank, .via_paypal {float: left; width: 100%;	}
+	.bank_acc_popup .form-group.form_grp_width { margin-bottom: 20px; float: left; padding: 0 10px;	}
+	p.payment_in {    margin-bottom: 0;}
+
+}
+
+/*POPUP DETAIL OF YOUR bank Account*/
+
+
+@media (min-width: 767px){
+	.register_inner.bank_acc_popup .right_side { padding-top: 8%; padding-bottom: 8%;	}
+}
+
+@media (min-width: 1200px){
+	.register_inner.withdrawl_rqst .form-group label.radio-inline { padding-left: 33px;    margin-right: 15px;	}
+	.register_inner.withdrawl_rqst .form-group span:last-child label.radio-inline { margin-right: 0;}
+}
+
+.withdrawl_rqst .right_side h3 {
+	font-size: 21px;    color: rgb( 123, 123, 128 );
+	font-weight: 300;    margin-bottom: 0;    margin-top: 16px;
+}
+.withdrawl_rqst .right_side h3 small{	font-size: 17px;	color: #56565c;
+	text-transform: uppercase;	font-weight: 500;
+}
+.withdrawl_rqst .right_side h1 {    font-size: 42px;    line-height: 83px;    margin: 0;    text-align: center;
+	font-weight: 900;    padding: 0;    margin: 0;        font-family: 'Roboto', sans-serif;    margin-bottom: 22px;
+}
+.withdrawl_rqst .right_side h1 img{vertical-align: middle;    margin-top: -4px;}
+.withdrawl_rqst .logo_login svg {	width: 140px;	height: 140px;}
+.bank_acc_popup.withdrawl_rqst .form-group.form_grp_width {    margin-bottom: 20px;}
+.withdrawl_rqst .my_character img {    margin-left: 20%;}
+@media(max-width: 1199px){
+	.withdrawl_rqst .right_side h3 {    font-size: 20px;    margin-top: 15px;}
+	.withdrawl_rqst .logo_login svg {		width: 120px;		height: 120px;	}
+	.withdrawl_rqst .right_side h1 {    font-size: 38px;    line-height: 75px;    margin-bottom: 15px;}
+	.withdrawl_rqst .right_side h1 img {    width: 40px;}
+	.forgot_pass_form.withdrawl_rqst .my_character { width: 200px;	}
+}
+
+@media(max-width: 991px){
+	.forgot_pass_form.withdrawl_rqst .my_character { width: 170px;	}
+	.withdrawl_rqst .logo_login svg {		width: 100px;		height: 100px;	}
+}
+@media(max-width: 767px){
+	.withdrawl_rqst .right_side h1 { font-size: 36px; line-height: 60px; margin-bottom: 12px; margin-top: 5px; }
+	.withdrawl_rqst .right_side h3 { font-size: 18px;}
+	.withdrawl_rqst .right_side h1 img { width: 35px }
+	.withdrawl_rqst .my_character img {		margin-left: 0;	}
+}
+@media(max-width: 400px){
+	.register_inner.withdrawl_rqst .form-group {    float: left;    width: 100%;}
+}

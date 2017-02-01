@@ -1,0 +1,21 @@
+.content h6 {
+	font-size: 15px;
+	font-family: "Roboto";
+	color: rgb(82, 190, 228);
+	font-weight: bold;
+	margin: 10px 0;
+	line-height:32px;
+	padding-left: 25px;
+	position: relative;
+}
+.content h6:before{position: absolute;content: '';background-image: url('../assets/img/bfr.png');width: 13px;height: 7px;left: 0px;top: 12px;}
+
+
+@media(max-width: 620px){
+	.content h6 {
+		line-height: 22px;
+	}
+	.content h6::before {
+		top: 7px;
+	}
+}

@@ -1,0 +1,50 @@
+.consumed_sessions_ul .action_detail{vertical-align: middle;}
+
+
+
+.forgot_pass_form .right_side h4 {
+	margin-bottom: 25px;
+}
+
+
+.register_inner .form-group textarea.form-control {
+	padding-top: 20px;
+	height: 110px !important;
+}
+
+
+
+@media screen and (min-width: 1300px){
+	.cancelled_sessions_ul .person_detail{ width: 30%; }
+	.cancelled_sessions_ul .session_detail{ width: 16%; }
+	.cancelled_sessions_ul .question_detail.cancelby_detail{ width: 14%; }
+	.cancelled_sessions_ul .question_detail.reason_detail{ width: 22%; }
+	.cancelled_sessions_ul .question_detail.refund_detail{ width: 18%; vertical-align: middle; }
+
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 1199px) { 
+	.cancelled_sessions_ul .person_detail{ width: 28%; }
+	.cancelled_sessions_ul .session_detail{ width: 16%; }
+	.cancelled_sessions_ul .question_detail.cancelby_detail{ width: 14%; }
+	.cancelled_sessions_ul .question_detail.reason_detail{ width: 22%; }
+	.cancelled_sessions_ul .question_detail.refund_detail{ width: 20%;  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 451px){
+	.cancelled_sessions_ul .question_detail.refund_detail{position: relative;}
+	.cancelled_sessions_ul .question_detail.refund_detail ul {
+		position: absolute;		top: 50%;		left: 50%;    width: 100%;
+		-webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%);
+		-o-transform: translate(-50%,-50%); transform: translate(-50%,-50%);
+	}
+}
+input#start_submit {
+    background: #87bf5c;
+    border: none;
+    padding: 0px;
+}
+input#start_submit :hover {
+	background: #7dad58;
+}

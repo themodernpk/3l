@@ -1,0 +1,1185 @@
+.mrg_top{
+
+	margin-top:102px;
+
+}
+	/*///////////////book_session//////////////////////*/
+
+
+
+	.modal-dialog{
+		width:1127px;
+	}
+	.modal .form-control {
+		height: 58px;
+		background-color: #fff;
+		border-radius: 28px;
+		padding: 10px 30px;
+		font-weight: 300;
+	}
+	.modal textarea.form-control{
+		height:207px!important;
+		padding: 25px 30px 25px;
+		font-size: 17px;
+		color: rgba(135, 135, 142, 0.702);
+	}
+
+	.modal textarea::-webkit-input-placeholder , .modal input::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+		font-size: 17px;
+		color: rgba(135, 135, 142, 0.702);
+	}
+	.modal textarea::-moz-placeholder , .modal input::-moz-placeholder  { /* Firefox 19+ */
+		font-size: 17px;
+		color: rgba(135, 135, 142, 0.702);
+	}
+	.modal textarea:-ms-input-placeholder , .modal input:-ms-input-placeholder { /* IE 10+ */
+		font-size: 17px;
+		color: rgba(135, 135, 142, 0.702);
+	}
+	.modal textarea:-moz-placeholder , .modal input:-moz-placeholder { /* Firefox 18- */
+		font-size: 17px;
+		color: rgba(135, 135, 142, 0.702);
+	}
+
+	#myModal .modal-header {
+		text-align: center;
+		background-image: url(img/bg_login.jpg);
+		padding: 0;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		background-color: #303033;
+		padding: 55px 0 110px;
+		position: relative;
+	}
+	#myModal .modal-header h4 {
+		font-size: 28px;
+		font-family: 'Robotoblack';
+		color: rgb(255, 255, 255);
+		text-transform: uppercase;
+	}
+	.modal-header .close {
+		position: absolute;
+		right: -10px;
+		top: -10px;
+		margin: 0;
+		height: 62px;
+		width: 62px;
+		border-radius: 50%;
+		background-color: #28282b;
+		opacity: 1;
+		border: 1px solid #2f2f32;
+		color: #fff;
+		font-size: 35px;
+		font-weight: 200;
+	}
+	.modal-header .close:hover ,.modal-header .close:focus{
+		outline: none;
+		background-color: #1e1e22;
+	}
+	.modal-open .modal {
+		z-index: 22;
+		background: rgba(16, 23, 15, 0.85);
+	}
+	.datepicker.dropdown-menu {
+		z-index: 15;
+	}
+	.modal-backdrop.fade.in {
+		z-index: 21;
+	}
+	.modal label.radio-inline:after {
+		height: 15px;
+		width: 15px;
+		border: 2px solid #707076;
+	}
+	.select_here p {
+		font-size: 20px;
+		color: rgb(126, 179, 57);
+		font-weight: 500;
+		display: inline-block;
+		margin: 0 25px 0 0;
+		line-height: 25px;
+	}
+	.select_here {
+		position: relative;
+		display: block;
+		padding-left: 44px;
+		margin-bottom: 22px;
+	}
+	.input_grp ,.input_grp div {
+		display: inline-block;
+	}
+	label.radio-inline {
+		display: inline-block;
+		padding-left: 30px;
+		cursor: pointer;
+		font-size: 17px;
+		font-weight: 300;
+		color: rgba(173, 173, 183, 0.702);
+		margin-right: 25px;
+		line-height: 25px;
+		margin-top: -5px;
+	}
+	.modal-body.content {
+		padding: 100px 80px 55px;
+	}
+	.upload.col-sm-4 {
+		padding:0;
+	}
+	/*.upload_new{display: table;}*/
+	.upload_new p ,.upload_new .upload{display:block;float: left;}
+	.upload_new p {
+		padding-right: 30px;
+		line-height: 25px;
+		text-align: left;
+		font-size: 17px;
+		color: rgb(151, 151, 157);
+	}
+
+	.modal-body .sub ,.modal-body .book{
+		font-size: 19px;
+		color: rgb(255, 255, 255);
+		border-radius: 28px;
+		background-color: rgb(139, 198, 62);
+		width: 393px;
+		line-height: 58px;
+		text-transform: capitalize;
+		font-weight: 400;
+	}
+	.modal-body .book:hover ,.modal-body .sub:hover{
+		background-color: #20A6BF;
+	}
+	.upload_new {
+		display: block;
+		width: 100%;
+		float: left;
+		padding-top: 25px;
+	}
+	.image_group .col-md-6 {
+
+		padding: 0;
+	}
+	.image_group {
+		display: table;
+		width: 100%;
+		padding-top: 21px;
+	}
+	.image_group .tutors_imgs div.t_img img{
+		border: 2px solid #8bc63e;
+		height: 100%;
+		width: 100%;
+		border-radius: 50%;
+	}
+	.image_group .tutors_imgs div.t_img {
+		display: inline-block;
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+		margin-right: 14px;
+	}
+	.image_group .tutors_imgs div.t_img:last-child{
+		margin:0;
+	}
+	.image_group .tutors_imgs div.t_img a{
+		position: relative;
+		display: block;
+		width:100%;
+		height:100%;
+		border-radius: 50%;
+		transition: .5s ;
+		-webkit-transition:.5s;
+		-moz-transition: .5s ;
+	}
+	.image_group .tutors_imgs div.t_img a span {
+		opacity:0;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		background-color: rgba(64,58,59,.9);
+		line-height: 100px;
+		font-size: 35px;
+		font-weight: 300;
+		border-radius: 50%;
+		top: 0;
+		left: 0;
+		text-align: center;
+		transition: .5s ;
+		-webkit-transition:.5s;
+		-moz-transition: .5s ;
+	}
+	.image_group .tutors_imgs div.t_img a:hover span {
+		opacity: 1;
+		transition: .5s ;
+		-webkit-transition:.5s;
+		-moz-transition: .5s ;
+	}
+	.upload_new .jFiler-theme-default .jFiler-input-button {
+		border-radius: 23px;
+		background-color: rgb(83, 83, 86) !important;
+		width: 161px;
+		color: #fff;
+		line-height: 46px;
+		font-weight: 400;
+		text-align: center;
+		margin: 0;
+		cursor: pointer;
+		background-image: none;
+		padding: 0;
+		border: none;
+		font-size: 16px;
+		font-family: "Roboto";
+	}
+	.upload_new .jFiler-theme-default .jFiler-input-button:hover {
+		background-color: rgb(61, 61, 65) !important;
+	}
+
+
+
+	.jFiler-items-default .jFiler-item .jFiler-item-others,
+	.jFiler-items-default .jFiler-item .jFiler-item-icon{	display: none;}
+	.jFiler-items-default .jFiler-item {
+		position: relative;	background: #ebeff1;	color: #4d4d4c;	padding: 9px 45px 9px 20px;
+		border-radius: 20px;    margin-bottom: 10px;	margin-left: 10px;	font-size: 15px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.jFiler-items-default .jFiler-item:hover{ background: #363e43; color: #b8c6d0;}
+	.jFiler-items-default .jFiler-item .jFiler-item-title {	font-weight: 300;}
+	.icon-jfi-trash:before {	content: "\f00d";	font-family: FontAwesome;}
+	.jFiler-items-default .jFiler-item-assets a {		padding: 0;    cursor: pointer;    background: transparent;    color: #898c8d; border-color:transparent;	}
+
+	.jFiler-items-default .jFiler-item:hover  .jFiler-item-assets .jFiler-item-trash-action,
+	.jFiler-items-default .jFiler-item-assets .jFiler-item-trash-action:hover,
+	.jFiler-items-default .jFiler-item-assets .jFiler-item-trash-action:active {	color: #f8999f;}
+	.jFiler-theme-default .jFiler-input {
+		position: relative;
+		display: block;
+		max-width: 161px;
+		width: auto;
+		height: 46px;
+		border: none !important;
+		margin: 0 auto;
+		margin-bottom: 0px;
+		border-radius: 25px;
+	}
+	.jFiler-input-caption {	display: none !important;}
+
+	.n_img {
+		display: block;
+		clear: both;
+		text-align: left;
+	}
+	.n_img .jFiler-items-default .jFiler-item{
+		color: #337ab7;
+	}
+	.n_img .jFiler-items-default .jFiler-item:hover {
+		background: transparent;
+		color: #363e43;
+	}
+	.n_img .jFiler-items-default .jFiler-item-assets a{
+		color: #d9534f;
+	}
+	.n_img .jFiler-items-default .jFiler-item .jFiler-item-title:hover{
+		color: #363e43; 
+	}
+	.n_img .jFiler-item{position: relative;}
+	.n_img .jFiler-item-assets {
+		position: absolute;
+		line-height: 18px;
+		left: 8px;
+		top:-3px;
+	}
+	.n_img  .jFiler-items-default .jFiler-item:hover  .jFiler-item-assets .jFiler-item-trash-action, .jFiler-items-default .jFiler-item-assets .jFiler-item-trash-action:hover, .jFiler-items-default .jFiler-item-assets .jFiler-item-trash-action:active{
+		color: #d9534f;
+	}
+	.n_img .jFiler-items-default .jFiler-item .jFiler-item-title {
+		margin-left: 5px;
+	}
+	.n_img .jFiler-items-default .jFiler-item {
+		margin:5px 0 ;
+		border-radius: 0;
+		background-color: transparent;
+		cursor: pointer;
+		display: block;
+		width:100%;
+		float: left;
+		padding: 0 0 0 20px;
+	}
+	.add_img .upload_new {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.submit_hr p {
+		font-size: 17px;
+		font-weight: 300;
+		color: rgba(117, 117, 122, 0.702);
+		padding-bottom: 25px;
+	}
+
+	.submit_hr {
+		padding-top: 40px;
+	}
+	.modal_logo  {
+		height: 162px;
+		width: 162px;
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: -80px;
+	}
+	.modal_logo img {
+		height: 138px;
+		width: 138px;
+		position: absolute;
+		left: 12px;
+		top: 12px;
+		border-radius: 50%;
+	}
+.modal-open .modal {
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: #fff !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    border: none !important;
+    width: 100% !important;
+}
+
+.form-group:last-child{/*margin-bottom: 0 !important;*/}
+
+.select_group .form-group {
+    margin-bottom: 22px;
+}
+
+/*modalllllllllll*/
+
+
+
+
+.start_learning {
+
+	/*padding:30px 0;*/
+
+	position: relative;
+
+}
+
+.img_group img{position: absolute;}
+
+.start_learning img{
+
+	max-width: 100%;
+
+	vertical-align: middle;
+
+	margin:0;
+
+}
+
+.btn.learn {
+
+	margin-top: 0px;
+
+	padding: 0 52px;
+
+}
+
+.learning img{margin-bottom: 30px;}
+
+.learning h2{
+
+	font-size: 45px;
+
+	font-weight: 400;
+
+	margin: 0;
+
+	color: rgb(49, 49, 49);
+
+	font-weight: 500;
+
+	word-spacing: 1px;
+
+	margin-top:10px;
+
+}
+
+.learning p{
+
+	font-size: 35px;
+
+	font-family: "Raleway";
+
+	line-height: 50px;
+
+	padding-bottom: 15px;
+
+}
+
+
+
+.learning{
+
+	text-align: center;
+
+	position: relative;
+
+	position: relative;
+
+	background-image: url(img/bg_learn_left.jpg) ,url(img/bg_learn_right.jpg);
+
+	background-position:left bottom ,right bottom;
+
+	background-repeat: no-repeat , no-repeat;
+
+	text-align:center;
+
+	padding: 85px 0;
+
+}
+
+
+
+.img_group img.thread{position: relative;}
+
+.img_group img{
+
+	left: 21px;
+
+	top:21px;
+
+	position: absolute;
+
+	-webkit-animation: move 5s;
+
+	animation: move 5s;
+
+	margin:0;
+
+}
+
+
+
+.img_group img {
+
+	-webkit-animation: point-up-down 1s linear infinite alternate;
+
+	-moz-animation: point-up-down 1s linear infinite alternate;
+
+	animation: point-up-down 1s linear infinite alternate;
+
+}
+
+.img_group img.dekstop_icon {
+
+	bottom: 10px;
+
+	left: 50%;
+
+	top: inherit;
+
+	transform: translateX(-50%);
+
+	-webkit-transform: translateX(-50%);
+
+	-moz-transform: translateX(-50%);
+
+	z-index: 5;
+
+}
+
+.img_group img.sub1 {
+
+	left: 178px;
+
+	top: 10px;
+
+}
+
+.img_group img.sub6 {
+
+	right: 265px;
+
+	left: initial;
+
+	top: 70px;
+
+	z-index: 0;
+
+}
+
+.img_group img.sub4 {
+
+	left: initial;
+
+	top: -20px;
+
+	right: 118px;
+
+}
+
+.img_group img.sub5 {
+
+	left: inherit;
+
+	right: 140px;
+
+	top: initial;
+
+	bottom: 45px;
+
+}
+
+.img_group img.sub3 {
+
+	left: 290px;
+
+	top: 30px;
+
+}
+
+.img_group img.sub2 {
+
+	left: 120px;
+
+	top: 155px;
+
+}
+
+
+
+.learn_img{display: none;}
+
+
+
+
+/*//////////calender//////////////*/
+
+
+
+.bootstrap-datetimepicker-widget .timepicker-hour, .bootstrap-datetimepicker-widget .timepicker-minute, .bootstrap-datetimepicker-widget .timepicker-second {
+	width: 35px;
+	font-weight: 500;
+	font-size: 15px;
+	margin: 0;
+	color:#c8cfd3;
+}
+
+.bootstrap-datetimepicker-widget table td span:hover {
+	background: -moz-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(160,205,74,1)), color-stop(100%, rgba(128,211,241,1))) !important; /* safari4+,chrome */
+	background: -webkit-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* opera 11.10+ */
+	background: -ms-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* ie10+ */
+	background: linear-gradient(319deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0cd4a', endColorstr='#80d3f1',GradientType=0 ) !important; /* ie6-9 */
+	color:#fff;
+}
+.bootstrap-datetimepicker-widget a.btn {
+	padding: 0 !important; 
+	background-color: transparent;
+	height: 35px !important;
+	width: 35px !important;
+	color: #c8cfd3;
+	line-height: 35px !important;
+
+}
+
+
+
+
+
+.bootstrap-datetimepicker-widget .picker-switch {
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+.bootstrap-datetimepicker-widget .picker-switch td span.glyphicon {
+	position: absolute;
+	left: 50%;
+	color: #c8cfd3;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+}
+.bootstrap-datetimepicker-widget .picker-switch td a:hover span.glyphicon{
+	color:#fff;
+}
+.bootstrap-datetimepicker-widget table td {
+	height: 35px !important;
+	line-height: 35px !important;
+	width: 35px !important;
+}
+.bootstrap-datetimepicker-widget  .glyphicon:before {
+	color: rgb(200, 207, 211);
+}
+.bootstrap-datetimepicker-widget a:hover .glyphicon:before
+{
+	color:#fff;
+}
+.glyphicon-chevron-down:before  {
+	line-height: 35px !important;
+}
+.bootstrap-datetimepicker-widget table td span {
+	display: inline-block;
+	width: 35px !important;
+	height: 35px !important;
+	line-height: 35px !important;
+	margin: 0 !important;
+	cursor: pointer;
+	border-radius: 4px !important;
+}
+.bootstrap-datetimepicker-widget table {
+	width: 100% !important;
+}
+.bootstrap-datetimepicker-widget thead tr th, .bootstrap-datetimepicker-widget tbody tr th, .bootstrap-datetimepicker-widget tfoot tr th, .bootstrap-datetimepicker-widget thead tr td, .bootstrap-datetimepicker-widget tbody tr td, .bootstrap-datetimepicker-widget tfoot tr td {
+   
+    text-align: center;
+}
+.bootstrap-datetimepicker-widget table td.day:hover, .bootstrap-datetimepicker-widget table td.hour:hover, .bootstrap-datetimepicker-widget table td.minute:hover, .bootstrap-datetimepicker-widget table td.second:hover {
+	background: #8bc63e;
+	cursor: pointer;
+	color: #fff;
+	height: 35px !important;
+	width: 35px !important;
+	line-height: 35px !important;
+}
+.bootstrap-datetimepicker-widget button {
+	padding: 4px 8px !important;
+	height: 35px !important;
+	line-height: 30px !important;
+	border-radius: 3px;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.datepicker{
+	padding: 10px;
+}
+.datepicker table {
+	margin: 0px !important;
+}
+
+td.active.day {
+	background: -moz-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(160,205,74,1)), color-stop(100%, rgba(128,211,241,1))) !important; /* safari4+,chrome */
+	background: -webkit-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* opera 11.10+ */
+	background: -ms-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* ie10+ */
+	background: linear-gradient(319deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0cd4a', endColorstr='#80d3f1',GradientType=0 ) !important; /* ie6-9 */
+}
+
+.datepicker table tr td.day, .datepicker table tr td.day {
+	font-size: 15px;
+	line-height: 27px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+.datepicker.dropdown-menu th, .datepicker.datepicker-inline th, .datepicker.dropdown-menu td, .datepicker.datepicker-inline td {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+.datepicker table tr td.day:hover, .datepicker table tr td.day.focused {
+	background: -moz-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(160,205,74,1)), color-stop(100%, rgba(128,211,241,1))) !important; /* safari4+,chrome */
+	background: -webkit-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* opera 11.10+ */
+	background: -ms-linear-gradient(131deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* ie10+ */
+	background: linear-gradient(319deg, rgba(128,211,241,1) 0%, rgba(160,205,74,1) 100%) !important; /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0cd4a', endColorstr='#80d3f1',GradientType=0 ) !important; /* ie6-9 */
+	cursor: pointer;
+	color: #fff;
+	padding:0 !important;
+	height: 35px !important;
+	width: 35px !important;
+	line-height: 35px !Important;
+}
+.datepicker thead tr:first-child th, .datepicker tfoot tr th {
+	cursor: pointer;
+	font-size: 19px;
+	color: #87878e;
+}
+
+.datepicker td, .datepicker th {
+	width: 35px !important;
+	height: 35px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*//////////calender//////////////*/
+
+
+
+
+
+
+
+
+
+@media(max-width: 1400px){
+
+	.learning h2 {
+
+		font-size: 40px;
+
+		line-height: 45px;
+
+		margin-top: 30px;
+
+	}
+
+	.learning p {
+
+		padding-top: 10px;
+
+	}
+
+}
+
+
+
+@media(max-width:1250px){
+
+
+
+	.learning h2 {
+
+		font-size: 35px;
+
+	}
+
+	.learning p {
+
+		padding-bottom: 10px;
+
+	}
+
+	.btn.learn {
+
+		margin-top:0px;
+
+		line-height: 50px;
+
+	}
+
+}
+
+
+
+
+
+@media(max-width: 1199px){
+
+	.modal-dialog{
+				width:90%;
+			}
+
+	.learning p {
+
+		padding-top: 0;
+
+	}
+
+
+
+
+
+	.learning p {
+
+		font-size: 25px;
+
+		line-height: 45px;
+
+		padding-bottom: 0;
+
+	}
+
+
+
+	.img_group img.sub1 {
+
+		left: 80px;
+
+	}
+
+	.img_group img.sub2 {
+
+		left: 20px;
+
+	}
+
+	.img_group img.sub3 {
+
+		left: 190px;
+
+	}
+
+	.img_group img.sub6 {
+
+		right: 167px;
+
+	}
+
+	.img_group img.sub4 {
+
+		top: -22px;
+
+		right:22px;
+
+	}
+
+	.img_group img.sub5 {
+
+		right: 40px;
+
+	}
+
+	.learning {
+
+		padding: 75px 0;
+
+	}
+
+	.modal textarea.form-control {
+				height: 194px !important;
+				padding: 20px;
+			}
+.upload_new p{
+				padding:12px 0px;
+			}
+			.upload_new {
+				display: block;
+				padding-top: 0;
+				margin-bottom: 25px;
+			}
+			.image_group .tutors_imgs div {
+				margin-right: 2px;
+			}
+			.modal-body.content {
+				padding: 100px 50px 55px;
+			}
+
+			.image_group {
+				display: block;
+				width: 100%;
+				clear: both;
+				float: left;
+			}
+			.tutors_imgs {
+				text-align: center;
+			}.image_group .col-sm-6 {
+				display: block;
+				padding: 0 15px;
+				width: 100%;
+				float: left;
+			}
+			.image_group .col-md-6 {
+				padding: 0;
+				float: left !important;
+				width: 100%;
+			}
+.submit_hr {
+				padding-top: 20px;
+			}
+			.submit_hr p{padding-bottom: 0;}
+			
+			
+			.submit_hr span {
+				padding: 0 20px 30px;
+			}
+
+}
+
+
+
+
+
+@media(max-width: 991px){
+
+	.mrg_top{
+
+		margin-top:0px;
+
+	}
+
+	.learning h2 {
+
+		font-size: 28px;
+
+	}
+
+
+
+	.btn.learn {
+
+		margin-top: 10px;
+
+		padding: 0 35px;
+
+	}
+
+
+
+
+
+	.img_group img.sub1 {
+
+		left: 25px;
+
+		top: -15px;
+
+	}
+
+	.img_group img.sub2 {
+
+		left: 5px;
+
+		top: 140px;
+
+		width: 120px;
+
+	}
+
+	.img_group img.sub3 {
+
+		left: 140px;
+
+		width: 150px;
+
+		top: 12px;
+
+	}
+
+	.img_group img.sub6 {
+
+		right: 125px;
+
+		width: 150px;
+
+		top: 55px;
+
+	}
+
+	.img_group img.sub4 {
+
+		top: -12px;
+
+		right: 0px;
+
+		width: 120px;
+
+	}
+
+	.img_group img.sub5 {
+
+		right: 20px;
+
+		width: 100px;
+
+		bottom: 50px;
+
+	}
+
+	.img_group img.dekstop_icon {
+
+		bottom: 26px;
+
+		width: 190px;
+
+	}
+
+	.learning {
+
+		padding: 60px 0 50px;
+
+	}
+
+	.modal-body.content {
+				padding: 100px 30px 55px;
+			}
+			.content .col-sm-6{
+				padding:0 8px;
+			}
+
+}
+
+
+
+
+
+@media(max-width: 767px){
+	.submit_hr {
+				padding-top: 20px;
+			}
+			.submit_hr p{
+				padding-bottom: 0;
+			}
+				.select_here {
+				padding-left: 30px;
+			}
+			
+			.select_here p {
+				display: block;
+				margin: 0 0 8px 0;
+				text-align: left;
+				width: 100%;
+			}
+
+				label.radio-inline{
+				margin:0;
+				display: block;
+			}
+			.submit_hr .choose_here p{
+				float: left;
+			}
+			.submit_hr .choose_here label{
+				margin:0;
+			}
+			.input_grp, .input_grp div {
+				display: block;
+			}
+			.modal_logo img ,.Book_Your_Session .modal_logo img{
+				height: 118px;
+				width: 118px;
+			}
+			.modal_logo ,.Book_Your_Session .modal_logo{
+				height: 142px;
+				width: 142px;
+			}
+			.image_group.row{margin:0;}
+			.modal-body .btn{line-height: 50px;}
+.form-group:last-child{margin-bottom: 22px !important;}
+
+			.image_group {
+				padding-top: 0px;
+			}
+			.upload_new p {
+				padding: 0px 0px 12px;
+				margin-bottom: 0;
+			}
+			.upload.col-sm-4 {
+				margin-top: 10px;
+			}
+
+.modal-dialog {
+				width: 100%;
+				padding: 0 30px 0 10px;
+			}
+			#myModal .modal-header {   
+				padding: 55px 0 90px;
+			}
+			#myModal .modal-header h4 {
+				font-size: 24px;
+			}
+
+	.learning{background-size:200px;}
+
+	.learn_img{display: block; padding: 0 30px;}
+
+	.thread ,.img_group{display: none;}
+
+	.learning h2{line-height: 34px;}
+
+
+
+}
+
+
+
+@media(max-width: 670px){
+
+
+
+	.learning h2 {
+
+		font-size: 25px;
+
+	}
+
+}
+
+
+
+@media(max-width: 550px){
+	.modal-body .btn {
+				width: 100%;
+			}
+
+			.content .col-xs-6 {
+				padding: 0 15px;
+				width:100%;
+			}
+			.modal_logo {
+				height: 100px;
+				width: 100px;
+				bottom: -50px;
+			}
+	.modal textarea.form-control {
+				height: 175px !important;
+				padding: 20px;
+			}
+			.modal-body.content {
+				padding: 90px 15px 55px;
+			}
+			#myModal .modal-header h4 {
+				font-size: 19px;
+			}
+			#myModal .modal-header {
+				padding: 55px 10px 70px;
+			}
+			.modal_logo img {
+				height: 80px;
+				width: 80px;
+				left: 10px;
+				top: 10px;
+			}
+	.learning h2 {
+
+		font-size: 22px;
+
+		line-height: 27px;
+
+	}
+
+	.learning p {
+
+		font-size: 22px;
+
+		line-height: 33px;
+
+		margin-bottom: 0;
+
+	}
+
+	.learning {
+
+		padding: 50px 0 50px;
+
+	}
+
+	.learn_img{ padding: 0 10px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+

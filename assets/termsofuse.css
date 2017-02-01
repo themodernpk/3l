@@ -1,0 +1,246 @@
+img {
+	border: 0;
+	max-width: 100%;
+	height: auto;
+}
+strong {
+	font-weight: bold;
+}
+.mrg_top{margin-top:55px;}
+
+.term {
+	position: relative;
+	background-color: #e6e6e6;
+	padding: 80px 0 291px;
+	background-image: url('../assets/img/bg.png');
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.term h1{
+	position: relative;
+	margin: 0;
+	font-size: 50px;
+	color: rgb(49, 49, 49);
+}
+
+.bg {
+	position: relative;
+	background-image: url(../assets/img/bg.jpg);
+	background-color: #e6e6e6;
+	background-position: left center;
+}
+
+.bg_white{
+	border-radius: 30px;
+	padding:50px 40px;
+	background-color: rgb(255, 255, 255);
+	margin-top: -215px;
+	margin-bottom: 85px;
+	position: relative;
+}
+.bg_white:after{
+	background-image: url('../assets/img/boy.png');
+	position: absolute;
+	content: '';
+	top: -206px;
+	right:35px;
+	width: 229px;
+	height: 206px;
+}
+nav#navigation-menu {
+	margin-top: 30px;
+	padding-left: 18px;
+}
+.bg #navigation-menu ul li{	display: block;list-style: disc;} 
+.bg #navigation-menu ul li a{
+	position: relative;
+	font-size: 14px;
+	color: rgb(61, 176, 175);
+	line-height: 2;
+	padding-left: 24px;
+	transition: initial;
+	display: block;
+	width: 100%;
+}
+.bg #navigation-menu ul li a:before{
+	position: absolute;
+	content: '';
+	background-image: url(../assets/img/dots.png);
+	background-position: -2px 0px;
+	background-repeat: no-repeat;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	top: 10px;
+}
+.bg #navigation-menu ul li a:hover , .bg #navigation-menu ul li a:hover:before ,.bg #navigation-menu ul li a:focus:before{
+	background-position: -2px -28px;
+	color: #91be41;
+	transition:initial;
+}
+
+.terms_list{
+	border-width: 2px;
+	margin-top:-5px;
+	margin-bottom: -5px;
+	border-color: rgb(124, 183, 102);
+	border-style: solid;
+	position: relative;
+	border-radius: 30px;
+}
+
+.bdr_bl{ 
+	border: 2px solid #3db0af;
+	border-radius: 30px;
+	margin:1px -5px;
+	padding: 35px;
+}
+.terms{padding-bottom: 0;}
+.terms h5 {
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: rgb(145, 190, 65);
+	font-weight: bold;
+	position: relative;
+	line-height: 30px;
+	margin-top: 0;
+}
+.terms h5:before{
+	position: absolute;
+	content: '';
+	background-image: url(../assets/img/dots.png);
+	background-position: 0px -54px;
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 13px;
+	left: -30px;
+	top: 8px;
+}
+div#content {
+	padding-left: 30px;
+}
+.content {
+	margin-top:35px;
+}
+.bdr_bl p {
+	line-height: 38px;
+	font-size: 22px;
+	color: rgb(143, 143, 144);
+
+}
+
+.content p {
+	font-size: 15px;
+	color: rgb(49, 49, 49);
+	line-height: 27px;
+	text-align: left;
+}
+#content section{padding:0;}
+
+
+
+
+
+
+@media(max-width: 1199px){
+	.bg_white {
+		margin-top: -209px;
+	}
+
+	.term h1 {
+		font-size: 45px;
+	}
+}
+
+@media(max-width: 991px){
+	.mrg_top {
+		margin-top: 50px;
+	}
+	.term h1, .subscribe_us h1 {
+		font-size: 38px;
+	}
+	.bg_white {
+		margin-top: -195px;
+	}
+	.bdr_bl {
+		padding: 30px;
+	}
+	.bdr_bl p {
+		line-height: 30px;
+		font-size: 19px;
+	}
+	.content p{line-height: 27px;font-size:15px;}
+	.content {
+		margin-top: 25px;
+	}
+	.bg_white:after {
+		top: -171px;
+		right: 0;
+		width: 190px;
+		height: 171px;
+		background-size: 100%;
+	}
+}
+@media(max-width: 620px){
+	.bg_white {
+		padding: 30px 30px;
+	}
+	.content {
+		margin-top: 5px;
+	}
+	.terms h5 {
+		margin-bottom: 5px;
+	}
+}
+@media(max-width: 550px){
+
+	.bg_white {
+		margin: 50px 0;
+	}
+	.bg_white:after{display: none;}
+	.term {
+		padding: 60px 0 60px;
+		background-size: 100%;
+	}
+	nav#navigation-menu {
+		margin-top: 10px;
+		padding-left: 0;
+		margin-bottom: 15px;
+	}
+	div#content {
+		padding-left: 20px;
+	}
+	.terms h5:before {
+		left: -21px;
+	}
+	.term h1, .subscribe_us h1 {
+		font-size: 35px;
+	}
+}
+
+@media(max-width: 480px){
+	.bg_white {
+		padding: 0;
+	}
+	.bdr_bl p {
+		line-height: 24px;
+		font-size: 16px;
+	}
+	.bg #navigation-menu ul li a {
+		line-height: 18px;
+		margin-top: 8px;
+	}
+	.bg #navigation-menu ul li a:before {
+		top: 6px;
+	}
+	.terms h5 {
+		font-size: 17px;
+		line-height: 26px;
+	}
+}
+@media(max-width: 420px){
+	.bdr_bl {
+		padding: 15px;
+	}
+}
